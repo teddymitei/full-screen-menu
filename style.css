@@ -12,3 +12,13 @@
     background-size: cover;
     background-position: center;
 }
+
+#menuIcon{
+    width: 60px;
+    border-radius: 50%;
+    position: fixed;
+    top: 40px;
+    right: 60px;
+    cursor: pointer;
+    z-index: 100;
+}
