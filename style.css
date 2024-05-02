@@ -44,10 +44,19 @@
     border-bottom-left-radius:0 ;
 }
 
+.menu-box.open-menu ul li{
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform 1s, opacity 1s;
+    transition-delay: 0.5s;
+}
+
 .menu-box ul li{
     list-style: none;
     margin: 20px;
     text-align: center;
+    opacity: 0;
+    transform: translateY(30px);
 }
 
 .menu-box ul li a{
